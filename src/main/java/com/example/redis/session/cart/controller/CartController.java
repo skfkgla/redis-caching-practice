@@ -1,4 +1,4 @@
-package com.example.redis.cart.controller;
+package com.example.redis.session.cart.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.redis.cart.dto.CartDto;
-import com.example.redis.cart.dto.CartItemDto;
-import com.example.redis.cart.service.CartService;
+import com.example.redis.session.cart.dto.CartDto;
+import com.example.redis.session.cart.dto.CartItemDto;
+import com.example.redis.session.cart.service.CartService;
 
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.example.redis.cart.dto;
+package com.example.redis.session.cart.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

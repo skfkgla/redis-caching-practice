@@ -1,4 +1,4 @@
-package com.example.redis.cart.dto;
+package com.example.redis.session.cart.dto;
 
 import java.util.Date;
 import java.util.Map;

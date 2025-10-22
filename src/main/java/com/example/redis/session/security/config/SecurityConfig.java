@@ -1,4 +1,4 @@
-package com.example.redis.session.config;
+package com.example.redis.session.security.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

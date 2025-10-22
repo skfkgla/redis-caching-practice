@@ -1,8 +1,8 @@
-package com.example.redis.item.service;
+package com.example.redis.cache.item.service;
 
-import com.example.redis.item.domain.Item;
-import com.example.redis.item.domain.ItemDto;
-import com.example.redis.item.repo.ItemRepository;
+import com.example.redis.cache.item.domain.Item;
+import com.example.redis.cache.item.domain.ItemDto;
+import com.example.redis.cache.item.repo.ItemRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

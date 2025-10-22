@@ -1,7 +1,7 @@
-package com.example.redis.item.controller;
+package com.example.redis.cache.item.controller;
 
-import com.example.redis.item.service.ItemService;
-import com.example.redis.item.domain.ItemDto;
+import com.example.redis.cache.item.service.ItemService;
+import com.example.redis.cache.item.domain.ItemDto;
 
 import lombok.RequiredArgsConstructor;
 

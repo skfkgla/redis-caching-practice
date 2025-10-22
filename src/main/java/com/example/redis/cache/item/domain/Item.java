@@ -1,4 +1,4 @@
-package com.example.redis.item.domain;
+package com.example.redis.cache.item.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

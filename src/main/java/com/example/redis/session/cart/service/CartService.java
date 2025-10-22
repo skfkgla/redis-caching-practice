@@ -1,4 +1,4 @@
-package com.example.redis.cart.service;
+package com.example.redis.session.cart.service;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -11,15 +11,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.example.redis.cart.dto.CartDto;
-import com.example.redis.cart.dto.CartItemDto;
+import com.example.redis.session.cart.dto.CartDto;
+import com.example.redis.session.cart.dto.CartItemDto;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 public class CartService {
-    private final String keyString = "cart:%s";
+    private final String keyString = "cartsession:%s";
     private final RedisTemplate<String, String> cartTemplate;
     private final HashOperations<String, String, Integer> hashOps;
 

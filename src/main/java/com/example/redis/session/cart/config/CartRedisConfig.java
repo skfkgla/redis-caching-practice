@@ -1,4 +1,4 @@
-package com.example.redis.cart.config;
+package com.example.redis.session.cart.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
