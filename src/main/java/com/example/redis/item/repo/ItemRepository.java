@@ -1,6 +1,6 @@
-package com.example.redis.repo;
+package com.example.redis.item.repo;
 
-import com.example.redis.domain.Item;
+import com.example.redis.item.domain.Item;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
